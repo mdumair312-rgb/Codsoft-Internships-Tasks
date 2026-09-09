@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeebroze Headphones | Official Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #0d0d0d; /* Deep dark background */
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* HEADER & NAV */
+        header {
+            padding: 20px 10%;
+            background-color: #1a1a1a;
+            border-bottom: 1px solid #333;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #00e5ff; /* Techy cyan/neon accent */
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #00e5ff;
+        }
+
+        .buy-btn {
+            padding: 10px 25px;
+            background-color: #00e5ff;
+            color: #000;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 25px;
+            transition: transform 0.3s;
+        }
+
+        .buy-btn:hover {
+            transform: scale(1.05); /* Slight pop out effect */
+        }
+
+        /* HERO SECTION */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px 10%;
+            min-height: 75vh;
+        }
+
+        .hero-text {
+            flex: 1;
+            padding-right: 50px;
+        }
+
+        .hero-text h1 {
+            font-size: 55px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            color: #aaa;
+            margin-bottom: 35px;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: transparent;
+            color: #00e5ff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 700;
+            border: 2px solid #00e5ff;
+            border-radius: 30px;
+            transition: all 0.3s;
+        }
+
+        .cta-btn:hover {
+            background-color: #00e5ff;
+            color: #000;
+        }
+
+        .hero-img {
+            flex: 1;
+        }
+
+        .hero-img img {
+            width: 100%;
+            border-radius: 20px;
+            /* Adds a cool glowing effect behind the image */
+            box-shadow: 0 20px 50px rgba(0, 229, 255, 0.15);
+        }
+
+        /* FEATURES SECTION (Creates the required columns and boxes) */
+        .features {
+            padding: 80px 10%;
+            background-color: #141414;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 36px;
+            margin-bottom: 50px;
+        }
+
+        .feature-boxes {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .box {
+            background-color: #1a1a1a;
+            padding: 40px 20px;
+            border-radius: 10px;
+            flex: 1;
+            border-top: 4px solid #00e5ff;
+            transition: transform 0.3s;
+        }
+
+        .box:hover {
+            transform: translateY(-10px); /* Moves up slightly when hovering */
+        }
+
+        .box h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        .box p {
+            color: #aaa;
+            font-size: 15px;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #0d0d0d;
+            color: #555;
+            border-top: 1px solid #222;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">ZEEBROZE</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+            <a href="#buy" class="buy-btn">Buy Now</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Immerse Yourself in Pure Sound.</h1>
+            <p>Experience next-generation active noise cancellation and 40-hour battery life. The Zeebroze Wireless Headphones are finally here.</p>
+            <a href="#buy" class="cta-btn">Pre-Order Now</a>
+        </div>
+        <div class="hero-img">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Zeebroze Headphones">
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Why Choose Zeebroze?</h2>
+        <div class="feature-boxes">
+            <div class="box">
+                <h3>Active Noise Cancellation</h3>
+                <p>Block out the world and focus on your music with our industry-leading ANC technology.</p>
+            </div>
+            <div class="box">
+                <h3>40-Hour Battery</h3>
+                <p>Listen for days without needing a charge. Quick charge gives you 5 hours of playback in just 10 minutes.</p>
+            </div>
+            <div class="box">
+                <h3>Premium Comfort</h3>
+                <p>Plush memory foam ear cushions designed for all-day wear without any fatigue.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Zeebroze Tech. Designed by Mohammed Umair Ali.</p>
+    </footer>
+
+</body>
+</html>
